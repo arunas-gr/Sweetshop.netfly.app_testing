@@ -1,0 +1,11 @@
+1. "Sale" banner has no associated link (inactive).
+2. "Sweets" page -> "Wham Bars" product image is not displayed.
+3. "Basket" page -> "Promo code" makes no change if activated.
+4. "Basket" page -> "Standart Shipping" option incorrectly alters the total price.
+5. "About" link gives "page not found message" if clicked on whilst on "Basket" page.
+6. "Checkout" button when clicked returns to the same page ("Basket")
+7. "Login" page -> social media links do not produce any result when clicked.
+8. "Sweets" page item "Sherbert Discs" is diplayed as "Sherbet Discs" in "Basket" page.
+9. "Sweets" page item "Wham Bars" is diplayed as "Wham Barin "Basket" page.
+10. Order of in the basket does not correspond to the order they were clicked neither to the order they were diplayed on "Sweets" page.
+11. Pictures do not have "alt" text

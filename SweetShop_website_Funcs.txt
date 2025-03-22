@@ -1,0 +1,83 @@
+1. Website sturcture: 
+1. Header: Navigation menu with 5 links
+1.1. Sweet Shop (Start page)
+1.2. Sweets (Full assortiment)
+1.3. About (Description)
+1.4. Login (User Login)
+1.5. Basket (Clients' basket)
+
+2. Body
+2.1. Wellcome text
+2.2. "Browse Sweets" (button, link to full assortiment, same link as 1.2.)
+2.3. "Our most popular choice of retro sweets" (selection of most popular consumer choices, similar set and similar order detected during different connections)
+2.3.1. Chocolate Cups: chocolate cups. Price: £1.00.
+2.3.2. Bon Bons: pink strawberry-flavored bonbons dusted with powdered sugar. Price: £1.00.
+2.3.3. Sherbert Straws: colorful straws filled with powdered sugar. Price: £0.75.
+2.3.4.Sherbert Discs: flying saucer-shaped sweets filled with sherbet. Price: £0.95.
+Each div fetrures: 
+Product picture, colour
+Product name 
+Product description
+Price
+“Add to Basket” button: all active
+
+3. Footer (copyright text, inactive)
+
+Second-tier structure (reachable after clicking respective link)
+1.1. Sweet Shop (Start page)
+1.1.1. Returns to start page (see 1.1.)
+
+1.2. Sweets (Full assortiment) (page)
+1.2.1. Header (same as in 1.1.)
+1.2.2. Body: 16 items, each, except for "Wham Bars" contaning 
+Product picture, colour
+Product name 
+Product description
+Price
+“Add to Basket” button: all active
+
+Product "Wham Bars" does not diplay picture
+
+1.2.3. Footer (copyright text, inactive)
+
+
+1.3. About (page)
+1.3.1. Header (same as in 1.1.)
+1.3.2. Body
+1.3.2.1. title "Sweet Shop Project" (inactive)
+1.3.2.2 text "Project Description: "An intentionally broken web application to help demonstrate Chrome DevTools." (inactive)
+1.3.2.3. text "Sweet Shop is a project created to help demonstrate some of the great features of the Chrome DevTools which may be of use to people who help test web applications. Sweet Shop encompasses common issues found in real-world web applications!"
+1.3.3. Footer (copyright text, inactive)
+
+1.4. Login (User Login) (page)
+1.4.1. Header (same as in 1.1.)
+1.4.2. Login instructions
+1.4.2.1. Data entry field "Email Address" with placeholder of sample email (active)
+1.4.2.2. Data entry field "Password": with placeholder "password" (active)
+1.4.2.3. Login Button (active)
+1.4.2.4. Icons with links to Social Media: Twitter, Facebook, LinkedIn. (inactive, mouseover changes)
+1.4.3. Footer (copyright text, inactive)
+
+1.5. Basket
+1.5.1. Header (same as in 1.1.)
+1.5.2. Body:
+1.5.2.1. Message "Your Basket" and short desctiption
+1.5.2.2. "Billing address" data entry fields (first name, last name, email address, address2, country, city, zip,)
+1.5.2.3. "Payment" data entry fields (name on card, cridit card number, expiration, cvv)
+1.5.2.4. "Your Basket" list of items, ordered on page 1.2.)
+1.5.2.5. "Delivery option" (collect, standard shipping). If chosen "standard shiping" incorrectly changes the total amount
+1.5.2.6. Promocode field (active, if used results in no changes)
+1.5.2.7. "Empty Basket" button (active, when clicked removing all items)
+1.5.2.8. "Continue to checkout" button (active, checking if data entered, not checking correctness of data, returning to 1.5. when clicked)
+1.5.3. Footer (copyright text, inactive)
+
+Third-tier structure
+1.4.0.1. Your Account (Shopping Cart)
+1.4.0.1.1. Header (same as in 1.1.)
+1.4.0.1.2. Body
+1.4.0.1.2.1. Displays wellcome meaage and login email (always the same (test@user.com), irespectively of login)
+1.4.0.1.2.2. "Previuos Orders" - list of previuos orders (static data, no changes irrecpectively of login)
+1.4.0.1.2.1. Option to sort orders by Order Number, Date Ordered, Order Description, total amount (Order Total)
+1.4.0.1.2.3. "Item breakdown" - stats of orders by months (static data, no changes irrecpectively of login)
+1.4.0.1.2.4. "Your Basket" - list of recently added goods, with "Delete item" option (removes all items of the same brand, no option to decrease quantity).
+
